@@ -1,12 +1,14 @@
 
 import './App.css';
+import AddTodo from './Component/AddTodo';
 import Todo from './Component/Todo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Todo/>
+       {/* <Todo/> */}
+       <AddTodo/>
       </header>
     </div>
   );
